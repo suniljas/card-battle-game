@@ -2,7 +2,7 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "Node16",
     "lib": ["esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -15,14 +15,18 @@
     "moduleResolution": "node16",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["*"]
     }
   },
   "include": [
     "src/**/*",
+    "app/**/*",
+    "components/**/*",
+    "constants/**/*",
+    "hooks/**/*",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "components"  ]
+  ]
 }
