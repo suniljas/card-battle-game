@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Fire Mage", "power": 50 },
+  { "id": 2, "name": "Ice Archer", "power": 40 },
+  { "id": 3, "name": "Earth Golem", "power": 60 }
+]
